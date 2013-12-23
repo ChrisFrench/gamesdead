@@ -1,0 +1,883 @@
+[
+    {
+        "name": "psr/log",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+            "shasum": ""
+        },
+        "time": "2012-12-21 11:40:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Psr\\Log\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "joomla/framework",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joomla/joomla-framework.git",
+            "reference": "3db74e6f9bbf151c0e73425887921cb239ad1e0e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joomla/joomla-framework/zipball/3db74e6f9bbf151c0e73425887921cb239ad1e0e",
+            "reference": "3db74e6f9bbf151c0e73425887921cb239ad1e0e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.10",
+            "psr/log": "~1.0"
+        },
+        "replace": {
+            "joomla/application": "self.version",
+            "joomla/archive": "self.version",
+            "joomla/cache": "self.version",
+            "joomla/compat": "self.version",
+            "joomla/controller": "self.version",
+            "joomla/crypt": "self.version",
+            "joomla/data": "self.version",
+            "joomla/database": "self.version",
+            "joomla/date": "self.version",
+            "joomla/facebook": "self.version",
+            "joomla/filesystem": "self.version",
+            "joomla/filter": "self.version",
+            "joomla/form": "self.version",
+            "joomla/github": "self.version",
+            "joomla/google": "self.version",
+            "joomla/http": "self.version",
+            "joomla/image": "self.version",
+            "joomla/input": "self.version",
+            "joomla/keychain": "self.version",
+            "joomla/language": "self.version",
+            "joomla/linkedin": "self.version",
+            "joomla/log": "self.version",
+            "joomla/model": "self.version",
+            "joomla/oauth1": "self.version",
+            "joomla/oauth2": "self.version",
+            "joomla/profiler": "self.version",
+            "joomla/registry": "self.version",
+            "joomla/router": "self.version",
+            "joomla/session": "self.version",
+            "joomla/string": "self.version",
+            "joomla/test": "self.version",
+            "joomla/twitter": "self.version",
+            "joomla/uri": "self.version",
+            "joomla/utilities": "self.version",
+            "joomla/view": "self.version"
+        },
+        "require-dev": {
+            "symfony/yaml": "~2.0"
+        },
+        "suggest": {
+            "symfony/yaml": "Install symfony/yaml 2.* if you require YAML support."
+        },
+        "time": "2013-12-01 00:38:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Joomla": "src/",
+                "Psr": "vendor/psr/cache"
+            },
+            "classmap": [
+                "src/Joomla/Compat/JsonSerializable.php"
+            ],
+            "files": [
+                "src/Joomla/PHP/methods.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "The Joomla Framework is a platform for writing Web and command line applications in PHP.",
+        "homepage": "https://github.com/joomla/joomla-framework",
+        "keywords": [
+            "framework",
+            "joomla"
+        ]
+    },
+    {
+        "name": "dioscouri/f3-lib",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dioscouri/f3-lib.git",
+            "reference": "54bbab7e7497a7f0acf41aade0799d7b26e299c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dioscouri/f3-lib/zipball/54bbab7e7497a7f0acf41aade0799d7b26e299c9",
+            "reference": "54bbab7e7497a7f0acf41aade0799d7b26e299c9",
+            "shasum": ""
+        },
+        "require": {
+            "joomla/framework": ">=1.0",
+            "php": ">=5.4.0"
+        },
+        "time": "2013-12-20 22:53:52",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Dsc": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Rafael Diaz-Tushman",
+                "email": "rdiaztushman@dioscouri.com",
+                "homepage": "http://dioscouri.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Library for the F3-framework",
+        "homepage": "https://github.com/dioscouri/f3-lib",
+        "keywords": [
+            "F3",
+            "rad"
+        ]
+    },
+    {
+        "name": "dioscouri/f3-admin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:dioscouri/f3-admin.git",
+            "reference": "c53145ac00d44e37b1d548a5901d976581120b94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://satis-private.dioscouri.com/dist/dioscouri-f3-admin-dev-master-69e7d0.zip",
+            "reference": "c53145ac00d44e37b1d548a5901d976581120b94",
+            "shasum": "87b7edeb8b075265070e845f0f283982d156cb68"
+        },
+        "require": {
+            "dioscouri/f3-lib": "dev-master",
+            "dioscouri/f3-users": "dev-master",
+            "php": ">=5.4.0"
+        },
+        "time": "2013-12-20 22:54:51",
+        "type": "component",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Admin": "src/"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Rafael Diaz-Tushman",
+                "email": "rdiaztushman@dioscouri.com",
+                "homepage": "http://dioscouri.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Admin component for the F3-framework",
+        "homepage": "https://github.com/dioscouri/f3-admin",
+        "keywords": [
+            "Admin",
+            "CMS",
+            "F3",
+            "RAD"
+        ]
+    },
+    {
+        "name": "dioscouri/f3-users",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:dioscouri/f3-users.git",
+            "reference": "d61ca6523d804e74b4cba793d3048f6b4dac8737"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://satis-private.dioscouri.com/dist/dioscouri-f3-users-dev-master-95fdd5.zip",
+            "reference": "d61ca6523d804e74b4cba793d3048f6b4dac8737",
+            "shasum": "31d62d852209b04d0ff88799f55291471e0f1de5"
+        },
+        "require": {
+            "dioscouri/f3-admin": "dev-master",
+            "dioscouri/f3-lib": "dev-master",
+            "php": ">=5.4.0"
+        },
+        "time": "2013-12-20 23:10:38",
+        "type": "component",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Users": "src/"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Rafael Diaz-Tushman",
+                "email": "rdiaztushman@dioscouri.com",
+                "homepage": "http://dioscouri.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Simple User component for the F3-framework",
+        "homepage": "https://github.com/dioscouri/f3-users",
+        "keywords": [
+            "F3",
+            "RAD",
+            "User Management"
+        ]
+    },
+    {
+        "name": "dioscouri/f3-assets",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:dioscouri/f3-assets.git",
+            "reference": "4939400cc082c56294a0ea206ded50251447b257"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://satis-private.dioscouri.com/dist/dioscouri-f3-assets-dev-master-4f028e.zip",
+            "reference": "4939400cc082c56294a0ea206ded50251447b257",
+            "shasum": "661e99c6c1b1841721be70df351cfb716c5feb36"
+        },
+        "require": {
+            "dioscouri/f3-admin": "dev-master",
+            "dioscouri/f3-lib": "dev-master",
+            "php": ">=5.4.0"
+        },
+        "time": "2013-12-18 00:37:03",
+        "type": "component",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Assets": "src/"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Rafael Diaz-Tushman",
+                "email": "rdiaztushman@dioscouri.com",
+                "homepage": "http://dioscouri.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Assets component for the F3-framework",
+        "homepage": "https://github.com/dioscouri/f3-assets",
+        "keywords": [
+            "F3",
+            "Media Asset Manager",
+            "RAD"
+        ]
+    },
+    {
+        "name": "dioscouri/f3-blog",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:dioscouri/f3-blog.git",
+            "reference": "69f93963cb15579f4fe1a993f0a7d4837bd980f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://satis-private.dioscouri.com/dist/dioscouri-f3-blog-dev-master-882020.zip",
+            "reference": "69f93963cb15579f4fe1a993f0a7d4837bd980f7",
+            "shasum": "0d074325f090744402c4f4a34875e8e0ac0d4b6a"
+        },
+        "require": {
+            "dioscouri/f3-admin": "dev-master",
+            "dioscouri/f3-lib": "dev-master",
+            "php": ">=5.4.0"
+        },
+        "time": "2013-12-18 16:15:34",
+        "type": "component",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Blog": "src/"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Rafael Diaz-Tushman",
+                "email": "rdiaztushman@dioscouri.com",
+                "homepage": "http://dioscouri.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Blog component for the F3-framework",
+        "homepage": "https://github.com/dioscouri/f3-blog",
+        "keywords": [
+            "Blog",
+            "F3",
+            "RAD"
+        ]
+    },
+    {
+        "name": "firephp/firephp-core",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/firephp/firephp-core.git",
+            "reference": "72493df5f36b0239adf7694240f91eca4bc25099"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/firephp/firephp-core/zipball/72493df5f36b0239adf7694240f91eca4bc25099",
+            "reference": "72493df5f36b0239adf7694240f91eca4bc25099",
+            "shasum": ""
+        },
+        "time": "2013-11-06 16:41:22",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/FirePHPCore/FirePHP.class.php",
+                "lib/FirePHPCore/fb.php"
+            ],
+            "files": [
+                "lib/FirePHPCore/fb.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christoph Dorn",
+                "email": "christoph@christophdorn.com",
+                "homepage": "http://christophdorn.com"
+            }
+        ],
+        "description": "Traditional FirePHPCore library for sending PHP variables to the browser.",
+        "homepage": "https://github.com/firephp/firephp-core"
+    },
+    {
+        "name": "bcosca/fatfree",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bcosca/fatfree.git",
+            "reference": "0825b74e4083c3c1f39d6cd566ab6c9396f4348c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bcosca/fatfree/zipball/0825b74e4083c3c1f39d6cd566ab6c9396f4348c",
+            "reference": "0825b74e4083c3c1f39d6cd566ab6c9396f4348c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-12-20 01:25:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+        "homepage": "http://fatfreeframework.com/"
+    },
+    {
+        "name": "leafo/lessphp",
+        "version": "v0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/lessphp.git",
+            "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/lessphp/zipball/51f3f06f0fe78a722dabfd14578444bdd078d9de",
+            "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de",
+            "shasum": ""
+        },
+        "time": "2013-08-09 17:09:19",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lessc.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "lessphp is a compiler for LESS written in PHP.",
+        "homepage": "http://leafo.net/lessphp/"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.4.0",
+        "version_normalized": "2.4.0.0",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher.git",
+            "reference": "acd1707236f6eb96fbb8d58f63d289b72ebc2f6e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/acd1707236f6eb96fbb8d58f63d289b72ebc2f6e",
+            "reference": "acd1707236f6eb96fbb8d58f63d289b72ebc2f6e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/dependency-injection": "~2.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2013-12-03 14:52:22",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "guzzle/guzzle",
+        "version": "v3.8.0",
+        "version_normalized": "3.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "b4a3ce8c05e777fa18b802956d5d0e38ad338a69"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b4a3ce8c05e777fa18b802956d5d0e38ad338a69",
+            "reference": "b4a3ce8c05e777fa18b802956d5d0e38ad338a69",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.3",
+            "symfony/event-dispatcher": ">=2.1"
+        },
+        "replace": {
+            "guzzle/batch": "self.version",
+            "guzzle/cache": "self.version",
+            "guzzle/common": "self.version",
+            "guzzle/http": "self.version",
+            "guzzle/inflection": "self.version",
+            "guzzle/iterator": "self.version",
+            "guzzle/log": "self.version",
+            "guzzle/parser": "self.version",
+            "guzzle/plugin": "self.version",
+            "guzzle/plugin-async": "self.version",
+            "guzzle/plugin-backoff": "self.version",
+            "guzzle/plugin-cache": "self.version",
+            "guzzle/plugin-cookie": "self.version",
+            "guzzle/plugin-curlauth": "self.version",
+            "guzzle/plugin-error-response": "self.version",
+            "guzzle/plugin-history": "self.version",
+            "guzzle/plugin-log": "self.version",
+            "guzzle/plugin-md5": "self.version",
+            "guzzle/plugin-mock": "self.version",
+            "guzzle/plugin-oauth": "self.version",
+            "guzzle/service": "self.version",
+            "guzzle/stream": "self.version"
+        },
+        "require-dev": {
+            "doctrine/cache": "*",
+            "monolog/monolog": "1.*",
+            "phpunit/phpunit": "3.7.*",
+            "psr/log": "1.0.*",
+            "symfony/class-loader": "*",
+            "zendframework/zend-cache": "2.0.*",
+            "zendframework/zend-log": "2.0.*"
+        },
+        "time": "2013-12-05 23:39:20",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Guzzle\\Tests": "tests/",
+                "Guzzle": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Guzzle Community",
+                "homepage": "https://github.com/guzzle/guzzle/contributors"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "aws/aws-sdk-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aws/aws-sdk-php.git",
+            "reference": "d5c54a4f3cfcc05308ce00f8d4fb119d99bfc0a9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d5c54a4f3cfcc05308ce00f8d4fb119d99bfc0a9",
+            "reference": "d5c54a4f3cfcc05308ce00f8d4fb119d99bfc0a9",
+            "shasum": ""
+        },
+        "require": {
+            "guzzle/guzzle": ">=3.7.0,<3.9.0",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "doctrine/cache": "~1.0",
+            "ext-openssl": "*",
+            "monolog/monolog": "1.4.*",
+            "phpunit/phpunit": "3.7.*",
+            "symfony/class-loader": "2.*",
+            "symfony/yaml": "2.*"
+        },
+        "suggest": {
+            "doctrine/cache": "Adds support for caching of credentials and responses",
+            "ext-apc": "Allows service description opcode caching, request and response caching, and credentials caching",
+            "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+            "monolog/monolog": "Adds support for logging HTTP requests and responses",
+            "symfony/yaml": "Eases the ability to write manifests for creating jobs in AWS Import/Export"
+        },
+        "time": "2013-12-20 23:18:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Aws": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Amazon Web Services",
+                "homepage": "http://aws.amazon.com"
+            }
+        ],
+        "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+        "homepage": "http://aws.amazon.com/sdkforphp",
+        "keywords": [
+            "amazon",
+            "aws",
+            "cloud",
+            "dynamodb",
+            "ec2",
+            "glacier",
+            "s3",
+            "sdk"
+        ]
+    },
+    {
+        "name": "hybridauth/hybridauth",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hybridauth/hybridauth.git",
+            "reference": "6d89473b379fc7a904e69ee63f548af3308bd4d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/6d89473b379fc7a904e69ee63f548af3308bd4d9",
+            "reference": "6d89473b379fc7a904e69ee63f548af3308bd4d9",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2013-02-21 06:45:16",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Hybrid": "hybridauth/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "(MIT or GPL-3.0+)"
+        ],
+        "authors": [
+            {
+                "name": "Miled",
+                "email": "hybridauth@gmail.com"
+            }
+        ],
+        "description": "Open source social sign on PHP library.",
+        "homepage": "http://hybridauth.sourceforge.net",
+        "keywords": [
+            "OpenId",
+            "facebook",
+            "google",
+            "hybridauth",
+            "login",
+            "oauth",
+            "social",
+            "twitter",
+            "yahoo"
+        ]
+    },
+    {
+        "name": "stripe/stripe-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stripe/stripe-php.git",
+            "reference": "ca02fbe5cb15a8c22eba205751a17ceb293c59ec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stripe/stripe-php/zipball/ca02fbe5cb15a8c22eba205751a17ceb293c59ec",
+            "reference": "ca02fbe5cb15a8c22eba205751a17ceb293c59ec",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "vierbergenlars/simpletest": "*"
+        },
+        "time": "2013-12-02 20:01:33",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/Stripe/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stripe and contributors",
+                "homepage": "https://github.com/stripe/stripe-php/contributors"
+            }
+        ],
+        "description": "Stripe PHP Library",
+        "homepage": "https://stripe.com/",
+        "keywords": [
+            "api",
+            "payment processing",
+            "stripe"
+        ]
+    },
+    {
+        "name": "pusher/pusher-php-server",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pusher/pusher-php-server.git",
+            "reference": "b07349cccec5d3d5006641a1208044d7df0c6d20"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pusher/pusher-php-server/zipball/b07349cccec5d3d5006641a1208044d7df0c6d20",
+            "reference": "b07349cccec5d3d5006641a1208044d7df0c6d20",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-12-23 16:41:52",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Library for interacting with the Pusher REST API",
+        "homepage": "https://github.com/pusher/pusher-php-server",
+        "keywords": [
+            "events",
+            "php-pusher-server",
+            "publish",
+            "pusher",
+            "realtime",
+            "rest",
+            "trigger"
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "e8a1df5f060bf7e6631554648e0abde150aedbe4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/e8a1df5f060bf7e6631554648e0abde150aedbe4",
+            "reference": "e8a1df5f060bf7e6631554648e0abde150aedbe4",
+            "shasum": ""
+        },
+        "time": "2013-08-19 21:18:20",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "sugeng tigefa",
+                "email": "tigefa@gmail.com"
+            },
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            }
+        ],
+        "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "bootstrap",
+            "css"
+        ]
+    }
+]
